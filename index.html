@@ -13,34 +13,17 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg ts-navbar">
-    <div class="container-fluid px-4">
-
-      <!-- Brand / Logo -->
-      <a class="navbar-brand ts-brand" href="index.html">
-        <img src="images/logo.jpg" alt="Logo" class="ts-logo">
-        <span>Aaron Bruce | Web Designer & Developer</span>
-      </a>
-
-      <!-- Mobile toggle -->
-      <button class="navbar-toggler ts-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Nav links -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-          <li class="nav-item">
-            <a class="nav-link ts-nav-link" href="https://linkedin.com/in/aaron-whiteside-aa29a13a7">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ts-nav-link" href="cv.html">CV</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar">
+    <div class="container mobile-center">
+        <a class="navbar-brand" href="index.html">
+            Aaron Bruce | Web Designer & Developer
+        </a>
+        <div class="nav-links">
+            <a class="nav-link" href="https://linkedin.com/in/aaron-whiteside-aa29a13a7">LinkedIn</a>
+            <a class="nav-link" href="cv/cv.pdf" target="_blank">CV</a>
+        </div>
     </div>
-  </nav>
+</nav>
 
 <hr>
 
@@ -50,9 +33,8 @@
 <div class="about">
 
         <h2>Hey, I'm Aaron</h2>
-        <p>I have hands-on experience developing web applications, troubleshooting technical issues, and documenting system processes and user issues.  Skilled in data integrity, user support, and translating technical information into accessible language for varied audiences.</p>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incid.</p>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>I design and develop web applications that are responsive, accessible and enjoyable to use.  I have experience troubleshooting technical issues, ensuring data integrity and supporting users through intuitive, well-designed applications.</p>
+    <p>I'm driven by creating engaging digital applications, solving complex problems and designing meaningful solutions to real-world challenges.  I approach every project with a user-first mindset, focusing on usability and best practices in user experience.</p>
 
 </div>
     <div class="projects">
@@ -60,36 +42,14 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 mb-4">
                 <div class="card">
-                    <img class="card-img-top" src="images/logo.JPG" alt="img">
+                    <img class="card-img-top" src="images/ts9.png" alt="img">
                     <div class="card-body">
                         <h5 class="card-title">Talent Sphere</h5>
-                        <p class="card-text">Event booking platforms with a focus on showcasing local upcoming talent.</p>
+                        <p class="card-text">Event booking platform with a focus on showcasing local upcoming talent.</p>
                         <a class="btn btn-primary" href="talentsphere.html">View</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 mb-4">
-                <div class="card">
-                    <img class="card-img-top" src="images/immersifly.png" alt="img">
-                    <div class="card-body">
-                        <h5 class="card-title">iMMERSIFLY</h5>
-                        <p class="card-text">A futuristic prototype website promoting a concept business in the year 2045, offering multi-sensory immersive experiences.</p>
-                        <a class="btn btn-primary" href="immersifly.html">View</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6 col-sm-12 mb-4">
-                <div class="card">
-                    <img class="card-img-top" src="images/logo.JPG" alt="img">
-                    <div class="card-body">
-                        <h5 class="card-title">Futuristic Website</h5>
-                        <p class="card-text">Event booking platforms with a focus on showcasing local upcoming talent.</p>
-                        <a class="btn btn-primary" href="talentsphere.html">View</a>
-                    </div>
-                </div>
-            </div>
-
             <div class="col-md-6 col-sm-12 mb-4">
                 <div class="card">
                     <img class="card-img-top" src="images/breathe.png" alt="img">
@@ -101,9 +61,28 @@
                 </div>
             </div>
 
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/drone1.JPG" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">Napier Drone Operations</h5>
+                        <p class="card-text">Web application for managing drone operations for Edinburgh Napier University.</p>
+                        <a class="btn btn-primary" href="drones.html">View</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/immersifly.png" alt="img">
+                    <div class="card-body">
+                        <h5 class="card-title">iMMERSIFLY</h5>
+                        <p class="card-text">A futuristic prototype website promoting a concept business in the year 2045, offering multi-sensory immersive experiences.</p>
+                        <a class="btn btn-primary" href="immersifly.html">View</a>
+                    </div>
+                </div>
+            </div>
         </div>
-
     </div>
 
 
@@ -111,14 +90,14 @@
     <h2>Education</h2>
 
     <div class="row">
-         <div class="col-md-6 col-sm-12">
+         <div class="col-md-6 col-sm-12 section-gap">
             <div class="card">
                 <h4><strong>Edinburgh College - Graduated: 2022</strong></h4>
              <p>HND Web Design & Development</p>
             </div>
          </div>
 
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 section-gap">
          <div class="card">
              <h4><strong>Edinburgh Napier University - Expected: 2026</strong></h4>
             <p>BSc Hons Web Design & Development</p>
@@ -145,9 +124,10 @@
     </div>
 </div>
 </div>
-
+<br>
 <footer>
-    <p>2026 Aaron Bruce</p>
+    <hr>
+    <p>ⓒ 2026 Aaron Bruce</p>
 </footer>
 
 </body>

@@ -12,36 +12,17 @@
     <meta name="author" content="Aaron Bruce">
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg ts-navbar">
-    <div class="container-fluid px-4">
-
-      <!-- Brand / Logo -->
-      <a class="navbar-brand ts-brand" href="index.html">
-        <img src="images/logo.jpg" alt="Logo" class="ts-logo">
-        <span>Aaron Bruce | Web Designer & Developer</span>
-      </a>
-
-      <!-- Mobile toggle -->
-      <button class="navbar-toggler ts-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Nav links -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-          <li class="nav-item">
-            <a class="nav-link ts-nav-link" href="https://linkedin.com/in/aaron-whiteside-aa29a13a7">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ts-nav-link" href="cv.html">CV</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar">
+    <div class="container mobile-center">
+        <a class="navbar-brand" href="index.html">
+            Aaron Bruce | Web Designer & Developer
+        </a>
+        <div class="nav-links">
+            <a class="nav-link" href="https://linkedin.com/in/aaron-whiteside-aa29a13a7">LinkedIn</a>
+            <a class="nav-link" href="cv/cv.pdf" target="_blank">CV</a>
+        </div>
     </div>
-  </nav>
-
+</nav>
 <hr>
 
 <div class="container">
@@ -60,14 +41,14 @@
 <div class="section">
 
     <div class="row">
-         <div class="col-md-6 col-sm-12">
+         <div class="col-md-6 col-sm-12 section-gap">
             <div class="card">
                 <p><strong>Project</strong></p>
-             <p>iMMERSIFLY is a prototype website which envisions what a futuristic website for a business in the year 2045 would look like.  The business specialises in immersive multi-sensory experiences using futuristic immsersive technologies to reflect how digital interaction and everyday life may evolve in the future.</p>
+                <p>iMMERSIFLY is a speculative concept website that imagines what a futuristic website for a business in the year 2045 would look like.  The business “iMMERSIFLY” specialises in immersive multi-sensory experiences using futuristic immersive technologies to reflect how digital interaction and everyday life may evolve in the future.</p>
             </div>
          </div>
 
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 section-gap">
          <div class="card">
              <p><strong>Tools</strong></p>
              <p><i class="fab fa-html5"></i> HTML (Bootstrap)</p>
@@ -81,55 +62,92 @@
     <div style="padding-top: 20px">
 
         <h2>About iMMERSIFLY</h2>
-        <p>This website was developed for a university project for an experiential design module.  "Design a speculative product, system, service, or experience intended for the hybrid
-city of 2035–2045".  As I am a web developer with an interest in immersive technologies it made sense to create a promotional and informational website for a futuristic business in the immersive technologies space.</p>
-
-        <p>The website offered three different tiers, each tier using more advanced technology than the previous.  The first tier reflected how immersive technologies might look in the year 2035, the second was for 2040 and lastly, the third tier was for the year 2045.  Each tier was a different price and for a different purpose.</p>
-</div>
+    <p>This project focused on designing and developing a promotional and informational website for a fictional futuristic business specialising in the immersive technology space.  The website offers three different tiers of immersive experiences, each tier represents advancements in technology across the years 2035, 2040 and 2045.  Each tier was designed to respond to potential future challenges such as emerging travel, social, environmental and economic issues.</p>
+    </div>
 
 
-<div class="section">
+<div class="section2">
     <div class="row">
-         <div class="col-md-4 col-sm-12">
+         <div class="col-md-4 col-sm-12 section-gap">
             <div class="card">
                 <img src="images/tier1.png" alt="ts1" class="card-img-top">
+                <div class="card-body p-2">
+        <p class="card-text"><em>Tier 1.0 (2035)</em></p>
+         </div>
             </div>
          </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 section-gap">
          <div class="card">
              <img src="images/tier2.png" alt="ts1" class="card-img-top">
+             <div class="card-body p-2">
+        <p class="card-text"><em>Tier 2.0 (2040)</em></p>
+         </div>
          </div>
         </div>
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-12 section-gap">
          <div class="card">
              <img src="images/tier3.png" alt="ts1" class="card-img-top">
+             <div class="card-body p-2">
+        <p class="card-text"><em>Tier 3.0 (2045)</em></p>
+         </div>
          </div>
         </div>
     </div>
 </div>
 <br>
-        <h2>What I learned</h2>
-        <p>I got to put into practice my skills in HTML (Bootstrap), CSS and Python (Flask) in a fun and creative way.  I really enjoy creating fun and engaging websites so this was a great project for that as I was able to have lots of fun with vibrant colour schemes with glowing elements.  I also learned more about immersive technologies through research into how they can be used currently and how they might be used in the future are these technologies advance.</p>
-    <p>As the business wasn't real and I instead had to imagine what a business in that point in the future would look like, I came across many things when developing it requiring further thought and development.  For example, I wanted it be somewhat realistic so as I was developing the website I realised there had to be another device to connect everything together which is where the "iHub" idea came from.  I also came up with a full backstory/about section with information on how the business came to life starting from 2026-2045.  It was also important to me to actually try and address current trends such as remote work and the use of AI which was incorporated into the website.</p>
-        <div class="col-md-12 col-sm-12">
+        <h2>The Process</h2>
+        <p>The website was built using Python (Flask) for routing and templating, with HTML (Bootstrap) used to create a responsive layout and CSS was utilised to achieve the futuristic aesthetic featuring vibrant colours and glowing elements.   I also learned more about immersive technologies through research into how they can be used currently and how they might be used in the future as these technologies advance to address worldwide trends such as remote work.</p>
+    <p>As the business was conceptual, I had to think carefully about how the system would actually function as well as what a business in the year 2045 would look like.  I wanted to create a believable ecosystem of products which is why I introduced the “iHub” device which connects the different technologies together.  I also developed a full backstory section with information on how the business came to life starting from 2026 up until 2045.  This helped ground the concept and make it feel more realistic and believable. </p>
+    <div class="section2">
     <div class="row">
-         <div class="col-md-6 col-sm-12">
+         <div class="col-md-6 col-sm-12 section-gap">
             <div class="card">
                 <img src="images/ihub.png" alt="ts1" class="card-img-top">
+                <div class="card-body p-2">
+        <p class="card-text"><em>iHub device (versions 1-3)</em></p>
+         </div>
             </div>
          </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 section-gap">
          <div class="card">
              <img src="images/about.png" alt="ts1" class="card-img-top">
+             <div class="card-body p-2">
+        <p class="card-text"><em>About page (company history)</em></p>
+         </div>
          </div>
         </div>
     </div>
 </div>
+
+    <br>
+        <h2>Inspiration</h2>
+    <p>I used fictional ethnography which helped me come up with user scenarios and use cases which featured on the website as user reviews.  This helped me picture how each tier might be used in real-world scenarios.  The inspiration for “iMMERSIFLY” came from the social, behavioural and environmental changes that emerged during and after the Covid-19 pandemic.  This concept business aimed to address some of the issues stemming from these changes such as restricted travel and loneliness.  iMMERSIFLY offers an immersive alternative to physical travel while sill enabling social connection and collaboration.  The concept also touches on tensions around AI advancements, the first two tiers rely on an AI chatbot for setup, while the most advanced and expensive tier counters this by introducing human assistance during setup.</p>
+    <div class="section2">
+    <div class="row">
+         <div class="col-md-12 col-sm-12">
+            <div class="card">
+                <img src="images/reviews.png" alt="ts1" class="card-img-top">
+                <div class="card-body p-2">
+        <p class="card-text"><em>Fictional user reviews based on ethnography</em></p>
+         </div>
+            </div>
+         </div>
+    </div>
 </div>
+
+
+        <br>
+        <h2>What I learned</h2>
+    <p>I looked at current trends in remote work, travel costs, isolation and environmental pressures and tried to predict how these might evolve through 2035-2045.  I enjoyed experimenting with Python (Flask), HTML, and CSS until I achieved the 2045 immersive technology aesthetic I was going for.  Instead of building a database, I passed hardcoded data into jinja templates as a fully functional database didn’t seem necessary and would only introduce unnecessary complexity.  In a real-world context, to ensure scalability and security, a fully functional database would’ve been utilised.  </p>
+    <p>One of the key learning points this project taught me was how to balance creative ideas with practical design considerations.  Additionally, I have a better understanding around speculative projects and how to balance realistic predictions for the future as well as considering user needs such as accessibility factors.  Through research, I also gained a better understanding around how the body might interact with immersive technologies in the future and how they can be used to address emerging social, travel and work trends.</p>
+</div>
+
 <br>
 <footer>
-    <p>2026 Aaron Bruce</p>
+    <hr>
+    <p>ⓒ 2026 Aaron Bruce</p>
 </footer>
+
 
 </body>
 </html>

@@ -13,35 +13,17 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg ts-navbar">
-    <div class="container-fluid px-4">
-
-      <!-- Brand / Logo -->
-      <a class="navbar-brand ts-brand" href="index.html">
-        <img src="images/logo.jpg" alt="Logo" class="ts-logo">
-        <span>Aaron Bruce | Web Designer & Developer</span>
-      </a>
-
-      <!-- Mobile toggle -->
-      <button class="navbar-toggler ts-toggler" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <!-- Nav links -->
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
-          <li class="nav-item">
-            <a class="nav-link ts-nav-link" href="https://linkedin.com/in/aaron-whiteside-aa29a13a7">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ts-nav-link" href="cv.html">CV</a>
-          </li>
-        </ul>
-      </div>
+<nav class="navbar">
+    <div class="container mobile-center">
+        <a class="navbar-brand" href="index.html">
+            Aaron Bruce | Web Designer & Developer
+        </a>
+        <div class="nav-links">
+            <a class="nav-link" href="https://linkedin.com/in/aaron-whiteside-aa29a13a7">LinkedIn</a>
+            <a class="nav-link" href="cv/cv.pdf" target="_blank">CV</a>
+        </div>
     </div>
-  </nav>
-
+</nav>
 <hr>
 
 <div class="container">
@@ -52,7 +34,7 @@
                 <div class="card">
                     <img class="card-img-top" src="images/ts1.png" alt="img">
                     <div class="card-body">
-                        <h5 class="card-title">Talent Sphere</h5>
+                        <h5 class="card-title">TalentSphere</h5>
                         </div>
                 </div>
             </div>
@@ -60,58 +42,118 @@
 <div class="section">
 
     <div class="row">
-         <div class="col-md-6 col-sm-12">
+         <div class="col-md-6 col-sm-12 section-gap">
             <div class="card">
                 <p><strong>Project</strong></p>
-             <p>TalentSphere was created as part of a university project for the advanced web technologies module.  It was created to showcase not only the top names, but also local up and coming talent.</p>
+                <p>This was my first ever full web application I developed using Python and Flask.  The platform is an event booking system, with a focus on promoting both popular acts and local up and coming talent.  I am happy with how it turned out as I managed to incorporate most of the features I had planned including the ability for users to register and login, browse events as well as book and receive personalised tickets.</p>
             </div>
          </div>
 
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-6 col-sm-12 section-gap">
          <div class="card">
              <p><strong>Details</strong></p>
-             <p><i class="fas fa-user"></i> HTML</p>
-             <p><i class="fas fa-user"></i> CSS</p>
-             <p><i class="fas fa-user"></i> Python (Flask)</p>
-             <p><i class="fas fa-user"></i> SQL</p>
+             <p><i class="fab fa-html5"></i> HTML (Bootstrap)</p>
+             <p><i class="fab fa-css3-alt"></i> CSS</p>
+             <p><i class="fab fa-python"></i> Python (Flask)</p>
+             <p><i class="fas fa-database"></i> SQLite</p>
          </div>
         </div>
     </div>
 </div>
 
-    <div class="section">
+    <div style="padding-top: 20px">
 
-        <h2>TalentSphere</h2>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incid.</p>
-        <p>Lorem ipsum dolor sit amet dolor sit amet. dolor sit amet. dolor sit amet.</p>
+        <h2>About TalentSphere</h2>
+        <p>
+The application included core features such as user authentication, event browsing and ticket booking.  I implemented dynamic pages using Flask templates and handled user interactions through routing, redirects and flashed messages.  Although there is no admin panel, it’s still possible to manage user and event data by running SQL statements manually using schema files that build and update the SQLite database.  This approach was suitable for this project as it was a prototype website for a university project, but a fully functional admin panel would’ve been used in a real world scenario to ensure ease of managing data and reducing the chance of errors.
+</p>
+    </div>
 
-</div>
 
-
-<div class="section">
+<div class="section2">
     <div class="row">
-         <div class="col-md-6 col-sm-12">
+         <div class="col-md-4 col-sm-12 section-gap">
             <div class="card">
-                <img src="images/ts1.png" alt="ts1" class="card-img-top">
+                <img src="images/ts4.png" alt="ts1" class="card-img-top">
+                <div class="card-body p-2">
+                    <p class="card-text"><em>Flashed message after registering</em></p>
+                </div>
             </div>
          </div>
-
-        <div class="col-md-6 col-sm-12">
+        <div class="col-md-4 col-sm-12 section-gap">
          <div class="card">
-             <img src="images/ts1.png" alt="ts1" class="card-img-top">
+             <img src="images/ts5.png" alt="ts1" class="card-img-top">
+        <div class="card-body p-2">
+             <p class="card-text"><em>Dynamic event cards</em></p>
+         </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-sm-12 section-gap">
+         <div class="card">
+             <img src="images/ts6.png" alt="ts1" class="card-img-top">
+        <div class="card-body p-2">
+         <p class="card-text"><em>Ticket pulling data from database</em></p>
+         </div>
          </div>
         </div>
     </div>
 </div>
 <br>
-        <h2>TalentSphere</h2>
-        <p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation.Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, sed do eiusmod tempor incid.</p>
-        <p>Lorem ipsum dolor sit amet dolor sit amet. dolor sit amet. dolor sit amet.</p>
 
+
+        <h2>Redesign</h2>
+    <p>Since developing and submitting my original website for the advanced web technologies module, I critically evaluated and redesigned various features of the website.  Initially, I put most of my time and effort into the back-end of the website, focusing on core functionality such as user authentication, event listings and the booking process.  I incorporated most of the requirements I had set out to do which required Python and Flask.  This meant that I didn’t have as much time to focus on the front-end of the website.  I recently revisited the application and redesigned key areas of the front-end.  This included improving areas such as the colour scheme, layout, visual design and usability, bringing the interface more in line with UX best practices and Nielsen’s usability heuristics.  The application now feels much closer to what users would expect from a modern event booking platform.  The previous version was functional but visually unappealing and the redesign significantly improves the overall aesthetic and usability leading to a better overall user experience.</p>
+
+<div class="section2">
+    <div class="row">
+         <div class="col-md-6 col-sm-12 section-gap">
+            <div class="card">
+                <img src="images/ts2.png" alt="ts1" class="card-img-top">
+                <div class="card-body p-2">
+                    <p class="card-text"><em>Redesigned top section of home page</em></p>
+                </div>
+            </div>
+         </div>
+        <div class="col-md-6 col-sm-12 section-gap">
+         <div class="card">
+             <img src="images/ts3.png" alt="ts1" class="card-img-top">
+        <div class="card-body p-2">
+             <p class="card-text"><em>Original top section of home page</em></p>
+         </div>
+        </div>
+        </div>
+    </div>
 </div>
+<br>
 
+        <h2>What I learned</h2>
+<p>This project significantly improved my back-end development skills.  Prior to this project, I had only experimented with small Flask components, but this was my first time developing a fully functional web application.  I became much more confident working with Flask and even gained experience working with SQLite.  I also learned the importance of balancing functionality and design.  While my initial focus was on implementing the core back-end functionality, revisiting the project showed me how much impact the design can have on the overall experience.</p>
+
+        <div class="section2">
+    <div class="row">
+         <div class="col-md-6 col-sm-12 section-gap">
+            <div class="card">
+                <img src="images/ts7.png" alt="ts1" class="card-img-top">
+                <div class="card-body p-2">
+                    <p class="card-text"><em>Redesigned local page with CTA</em></p>
+            </div>
+         </div>
+         </div>
+        <div class="col-md-6 col-sm-12 section-gap">
+         <div class="card">
+             <img src="images/ts8.png" alt="ts1" class="card-img-top">
+        <div class="card-body p-2">
+        <p class="card-text"><em>Original local page</em></p>
+         </div>
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+<br>
 <footer>
-    <p>2026 Aaron Bruce</p>
+    <hr>
+    <p>ⓒ 2026 Aaron Bruce</p>
 </footer>
 
 </body>

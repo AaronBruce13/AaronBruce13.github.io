@@ -9,7 +9,7 @@ p{
 
     color: #FFFFFF !important;
     font-size: 30px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
 
 .nav-link {
@@ -33,10 +33,10 @@ p{
 
 .skill {
   background-color: #0b5ed7;
-  border: 1px solid deepskyblue;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   padding: 5px 14px;
-  color: pink;
+  color: #ffffff;
 
 }
 
@@ -66,9 +66,16 @@ p{
 .card-body{
     flex-grow: 1;
 }
+
 .section {
   padding: 30px;
-  border-bottom: 0.5px solid darkslateblue;
+      margin-bottom: 35px;
+}
+
+.section2 {
+  padding: 30px;
+    margin-right: 40px;
+    margin-bottom: 35px;
 }
 
 .section .card {
@@ -95,6 +102,35 @@ p{
     text-decoration: none;
 }
 footer {
-  border-top: 1px solid white;
   text-align: center;
+}
+
+.section-gap {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .card-img-top {
+        height: auto !important;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .mobile-center {
+        flex-direction: column;
+    }
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+
+.mobile-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
 }
